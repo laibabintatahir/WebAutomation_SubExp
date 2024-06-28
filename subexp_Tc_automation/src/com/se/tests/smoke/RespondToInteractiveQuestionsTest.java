@@ -1,6 +1,6 @@
-package com.se.tests.smoke;
-
 // File: src/com/se/tests/smoke/RespondToInteractiveQuestionsTest.java
+
+package com.se.tests.smoke;
 
 import com.se.TestDriver;
 import com.se.rolesbase.StudentLoginBase;
@@ -27,7 +27,7 @@ public class RespondToInteractiveQuestionsTest extends StudentLoginBase {
     @Test
     public void respondToInteractiveQuestions() {
         // Navigate to the video section
-        NavigationUtil.navigateToUrl("https://demo.subexpert.com/CourseLectures/OnTopic/OOSE-Labs/5-Projects-on-GitHub#setInteraction");
+        NavigationUtil.navigateToUrl("https://demo.subexpert.com/CourseLectures/OnTopic/OOSE-Labs/5-Projects-on-GitHub");
 
         WebDriver driver = TestDriver.getDriver();
         WebDriverWait wait = new WebDriverWait(driver, 20);
@@ -65,6 +65,7 @@ public class RespondToInteractiveQuestionsTest extends StudentLoginBase {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
 
         // Play the video using JavaScript and wait for it to start playing
         JavascriptExecutor js = (JavascriptExecutor) driver;
