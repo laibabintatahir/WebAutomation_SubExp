@@ -1,6 +1,5 @@
 package com.se.tests.smoke;
 
-
 // File: src/com/se/tests/smoke/ViewInteractiveVideoTest.java
 
 import com.se.TestDriver;
