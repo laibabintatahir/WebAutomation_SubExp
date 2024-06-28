@@ -1,9 +1,9 @@
 # WebAutomation_SubExp
-### 1. Add Video By Teacher
-### 2. Delete Video by Teacher 
-### 3. Add video by student
-### 4. View Iterctive videos By Student
-### 5. Respond To Inteactive question 
-### 6. Play Suggested Videos 
+
+### 1. Add video by student
+### 2. View Iterctive videos By Student
+### 3. Respond To Inteactive question 
+### 4. Play Suggested Videos 
+### 5. Add Video By Teacher
 
  
